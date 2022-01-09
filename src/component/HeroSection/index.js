@@ -8,7 +8,7 @@ const HeroSection = (props) => {
 
         <HeroContainer id="home">
             <HeroBg>
-                <VideoBg autoPlay  controls src={Video} type='video/mp4'/> 
+                <VideoBg autoPlay muted  src={Video} type='video/mp4'/> 
 
             
             </HeroBg>
